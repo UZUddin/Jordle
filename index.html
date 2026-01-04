@@ -5,23 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jordle</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; padding: 24px; line-height: 1.4; }
-    img { max-width: 240px; height: auto; display: block; margin: 12px 0; }
-    code { background: #f2f2f2; padding: 2px 6px; border-radius: 6px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; padding: 24px; line-height: 1.4; max-width: 900px; margin: 0 auto; }
+    .row { display: flex; gap: 16px; flex-wrap: wrap; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; }
+    img { max-width: 320px; height: auto; display: block; border-radius: 10px; }
+    code, pre { background: #f4f4f4; padding: 10px; border-radius: 10px; overflow-x: auto; }
   </style>
 </head>
 <body>
   <h1>Jordle</h1>
-  <p>This repo contains a Java project and assets.</p>
+  <p>Java project + assets hosted on GitHub Pages.</p>
 
-  <h2>Assets preview</h2>
-  <img src="Light.png" alt="Light mode" />
-  <img src="Dark.png" alt="Dark mode" />
-  <img src="check.png" alt="Check" />
+  <h2>Previews</h2>
+  <div class="row">
+    <div class="card">
+      <h3>Light</h3>
+      <img src="Light.png" alt="Light mode preview">
+    </div>
+    <div class="card">
+      <h3>Dark</h3>
+      <img src="Dark.png" alt="Dark mode preview">
+    </div>
+    <div class="card">
+      <h3>Check</h3>
+      <img src="check.png" alt="Check icon">
+    </div>
+  </div>
 
-  <h2>Run locally</h2>
-  <p>Download the repo and run:</p>
+  <h2>Run locally (Java)</h2>
   <pre><code>javac Jordle.java
 java Jordle</code></pre>
+
+  <p>Files included: <code>Jordle.java</code>, <code>KarnakPro-CondensedBlack.ttf</code>, and image assets.</p>
 </body>
 </html>
