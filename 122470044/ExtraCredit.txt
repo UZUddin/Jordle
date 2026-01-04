@@ -1,0 +1,6 @@
+Custom imported fonts
+Toggle buttons between light/dark mode
+    -> toggle buttons that are on top of each and dissapear once clicked
+Images set to be a buttons
+Check mark button shows a page of all the words that were guessed
+Hint button that shows the first letter of the word to guess
